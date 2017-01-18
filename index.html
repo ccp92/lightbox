@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+		<title>Lightbox</title>
         <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <div>
+        <div id="lightbox">
             <button id="left">Left</button>
-            <img src="cat1.jpg" class="image"/>
-            <img src="cat2.jpg" class="image"/>
-            <img src="cat3.jpg" class="image"/>
-            <button id="right">Right</button>
+			<ul id="list">
+				<li><img src="cat1.jpg" id="current"/></li>
+				<li><img src="cat2.jpg"/></li>
+				<li><img src="cat3.jpg"/></li>
+			</ul>
+			<button id="right">Right</button>
         </div>
     </body>
 </html>
