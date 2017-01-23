@@ -1,3 +1,26 @@
-.image {
+img {
     width: 10em;
+	visibility: hidden;
+}
+
+#current {
+	visibility: visible;
+}
+
+#list li {
+	list-style-type: none;
+}
+
+body {
+	background-color: darkgray;
+	text-align: center;
+}
+
+#lightbox {
+	width: 38em;
+	background-color: white;
+	margin: 0 auto;
+	text-align: left;
+	border-radius: 1em;
+	padding: 1em;
 }
